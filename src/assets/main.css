@@ -1,0 +1,66 @@
+@import './base.css';
+
+@font-face {
+  font-family: 'Hezaedrus-Medium';
+  /* font-style: normal; */
+  /* font-weight: 500; */
+  src: url(./styles/fonts/Hezaedrus-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Hezaedrus';
+  /* font-style: normal; */
+  /* font-weight: 400; */
+  src: url(./styles/fonts/Hezaedrus-Regular.ttf) format('truetype');
+}
+
+#app {
+  /* max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal; */
+  font-family: 'Hezaedrus';
+  /* font-weight: 500; */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}
+::-webkit-scrollbar {
+  width: 10px; 
+}
+
+::-webkit-scrollbar-track {
+background-color: #3b3179;
+}
+
+::-webkit-scrollbar-thumb {
+background: #0f0c22;
+border-radius: 25px;
+}
+/* a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px;
+} */
+
+@media (hover: hover) {
+  /* a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  } */
+}
+
+@media (min-width: 1024px) {
+  /* body {
+    display: flex;
+    place-items: center;
+  }
+
+  #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  } */
+}
